@@ -1,18 +1,45 @@
-**#Owl Eye Rotation**
+# 🦉 Owl Eye Rotation
+
 This project creates a dynamic effect where an owl's eyes rotate to follow the movement of the mouse pointer. The interactive animation mimics the behavior of an owl tracking objects, providing an engaging visual experience.
 
-**Features**
-Interactive Animation: The owl's pupils move in real time, following the cursor's position.
-Smooth Movement: The rotation uses trigonometric calculations for precise and natural movement.
-Lightweight and Responsive: Built with minimal HTML, CSS, and JavaScript for quick loading and responsiveness.
-How It Works
-Mouse Movement Detection:
+## ✨ Features
+- 🎯 **Interactive Animation**: The owl's pupils move in real-time, following the cursor's position.
+- 🎨 **Smooth Movement**: Uses trigonometric calculations for precise and natural movement.
+- ⚡ **Lightweight and Responsive**: Built with minimal HTML, CSS, and JavaScript for quick loading and responsiveness.
 
-Listens for the mousemove event to track the cursor's position.
-Eye Center and Angle Calculation:
+## 🛠️ How It Works
+1. **Mouse Movement Detection**
+   - Listens for the `mousemove` event to track the cursor's position.
+2. **Eye Center and Angle Calculation**
+   - Identifies the center coordinates of each eye.
+   - Calculates the angle between the eye center and the cursor using `Math.atan2`.
+3. **Dynamic Rotation**
+   - Applies the calculated angle to the pupils using the CSS `transform: rotate()` property.
 
-Identifies the center coordinates of each eye.
-Calculates the angle between the eye center and the cursor using Math.atan2.
-Dynamic Rotation:
+## 📸 Execution Images
+Here are some snapshots demonstrating the owl eye rotation in action:
 
-Applies the calculated angle to the pupils using the CSS transform: rotate() property.
+### 🔹 Initial State
+![Initial State](images/initial_state.png)
+
+### 🔹 Cursor Moving
+![Cursor Moving](images/cursor_moving.png)
+
+### 🔹 Final Tracking Position
+![Final Tracking Position](images/final_tracking.png)
+
+## 📌 Setup and Execution
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/owl-eye-rotation.git
+   ```
+2. Open the `index.html` file in a browser.
+3. Move your cursor to see the owl's eyes follow it.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+
+Enjoy the mesmerizing owl eye animation! 🦉✨
+
