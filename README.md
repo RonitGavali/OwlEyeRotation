@@ -20,13 +20,13 @@ This project creates a dynamic effect where an owl's eyes rotate to follow the m
 Here are some snapshots demonstrating the owl eye rotation in action:
 
 ### 🔹 Initial State
-![Initial State](images/initial_state.png)
+![Initial State](https://github.com/RonitGavali/OwlEyeRotation/blob/main/owl1.png)
 
 ### 🔹 Cursor Moving
-![Cursor Moving](images/cursor_moving.png)
+![Cursor Moving](https://github.com/RonitGavali/OwlEyeRotation/blob/main/owl2.png)
 
 ### 🔹 Final Tracking Position
-![Final Tracking Position](images/final_tracking.png)
+![Final Tracking Position](https://github.com/RonitGavali/OwlEyeRotation/blob/main/owl3.png)
 
 ## 📌 Setup and Execution
 1. Clone the repository:
